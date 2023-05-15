@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+  /* ---- Formateo de Estilos ----  */
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: var(--texto-body);
+}
+
+h1,h2,h3,h4,h5,h6,b{
+    font-weight: var(--font-bold);
+}
+
+img{
+    width: 100%;
+}
+
+  /* ---- Variables Globales ----  */
+:root{
+        /* Colores Base*/
+    --principal-color: #ff0000;
+    --gris-color     : #909090;
+    --gris-color-alt : #ccc;
+    --borde-color    : rgba(0, 0, 0, 0.1);
+
+      /* Colores de Fondo */
+    --bg-color       : #fff;
+    --bg-color-alt   : #f9f9f9;
+    --bg-color-activo: #e5e5e5;
+
+      /* Colores de Texto */
+    --texto-color       : #030303;
+    --texto-color-alt   : #606060;
+    --texto-color-blanco: #fff;
+
+      /* Fuentes */
+    --texto-body: 'Roboto', sanrif;
+    --icon      : 'icomoon';
+
+      /* Tamaño de Texto */
+    --big-size    : 1.25rem;
+    --normal-size : 1rem;
+    --small-size  : 0.875rem;
+    --smaller-size: 0.75rem;
+    --font-bold   : 500;
+}
+
